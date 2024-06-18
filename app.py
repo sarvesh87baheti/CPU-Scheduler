@@ -124,6 +124,4 @@ def submit():
     return jsonify({'error': 'Unsupported algorithm'}), 400
 
 if __name__ == "__main__":
-    # Use 0.0.0.0 to listen on all interfaces
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
-
+    app.run(debug=True)
