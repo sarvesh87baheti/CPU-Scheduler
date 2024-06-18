@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cpu-scheduler
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      chmod +x fcfs.exe
+      chmod +x roundRobin.exe
+      chmod +x sjf.exe
+      chmod +x srtf.exe
+      chmod +x priority.exe
+    startCommand: python app.py
