@@ -1,0 +1,125 @@
+.colored-div {
+    width: calc(100% - 10px); /* Adjust margin */
+    height: 200px;
+    margin: 2.5px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative; /* Add position relative to parent */
+}
+
+#div1 {
+    height: 45%;
+    background-image: url('Gemini_Generated_Image_2.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#div2 {
+    background-color: #3572EF;
+    height: 45%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 3% 5%;
+}
+
+#div3 {
+    background-color: #3ABEF9;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 2% 3%;
+    font-size: 25px;
+    font-family:cursive;
+    font-weight: 700;
+}
+
+#head_results {
+    background-color: black;
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#schedule_area {
+    background-color: blue;
+}
+.content {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#div1 h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+#div1 p {
+    font-size: 36px;
+}
+
+#div2 h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#div2 h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#div3 h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.empty-div {
+    width: 50%; /* Adjust width as needed */
+    height: 100%; /* Match parent height */
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Align to top */
+    right: 0; /* Align to right */
+}
+
+body {
+    background-color: #D1D8C5; /* Set your desired background color here */
+}
+
+.btn-info{
+    font-size: 30px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+.list-group {
+    background-color: black;
+}
+
+.custom-list {
+    background-color: #050C9C;
+    color: white; /* Set text color to ensure visibility */
+  }
+
+  .btn-group{
+    width: 25%;
+  }
+
+  #div2buttons {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+#processTableContainer{
+    font-weight: 700;
+    font-size: 20px;
+}
